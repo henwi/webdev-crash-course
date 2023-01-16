@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+   
+    box-sizing: border-box;
+}
+
+body {
+
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+ol {
+    list-style-type: upper-roman ;
+    padding: 0;
+}
+
+ul {
+    list-style-type: square;
+    text-align: left;
+    padding: 1.2em;
+    list-style-position: inside;
+    color: #555;
+    line-height: 1.5;
+    /* list-style-image: url('check-icon.png');
+    list-style: square url('check-icon.png') inside;
+ */
+    
+}
+
+ul li:nth-child(2){
+    color: purple;
+}
+
+ul ::marker{
+    color: indianred;
+    font-size: 1em;
+    content: "50% OFF  ";
+}
