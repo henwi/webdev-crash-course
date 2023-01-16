@@ -39,7 +39,7 @@ body {
 
 .container {
     background-color: rgb(251, 210, 156);
-    background-image: url('../images/pexels-scenic-lake.jpeg');
+    background-image: url('../../images/pexels-scenic-lake.jpeg');
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -95,7 +95,7 @@ body {
     font-weight: 800;
     font-size: 15rem;
     text-align: center;
-    background-image: url(../images/pexels-scenic-lake.jpeg), linear-gradient(salmon, cyan);
+    background-image: url(../../images/pexels-scenic-lake.jpeg), linear-gradient(salmon, cyan);
     background-size: 100%;
     background-position: top;
     text-transform: uppercase;
