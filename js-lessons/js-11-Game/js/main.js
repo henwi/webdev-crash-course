@@ -4,7 +4,7 @@ let playGame = confirm("Shall we play rock, paper, scissors?");
 
 if (playGame) {
     // play
-    let playerChoice = prompt("Please enter rock, paper or  scissors.");
+    let playerChoice = prompt("Please enter rock, paper or scissors.");
     if (playerChoice) {
         let playerOne = playerChoice.trim().toLowerCase();
         if (playerOne === "rock" || playerOne === "paper" || playerOne === "scissors") {
