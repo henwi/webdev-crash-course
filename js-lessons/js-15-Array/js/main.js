@@ -22,8 +22,9 @@ console.log(myArray[1]);
 
 // add more data to an array
 
-myArray.push("school");
+const newInsert = myArray.push("school");
 console.log(myArray);
+console.log(newInsert);
 
 const lastItem = myArray.pop();
 console.log(myArray);
