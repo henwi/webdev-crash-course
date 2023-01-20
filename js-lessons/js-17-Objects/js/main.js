@@ -16,7 +16,7 @@ const otherObj = {
         afternoon :  "Iced Tea"
     },
     action: function() {
-        return `Time for ${this.beverage.morning}`;
+        return `Time for ${this.beverage.morning}.`;
     }
 }
 console.log(otherObj.hobbies[1]);
