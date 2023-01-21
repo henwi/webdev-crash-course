@@ -65,10 +65,11 @@ view2.style.margin = "10px";
 while (view2.lastChild) {
     view2.lastChild.remove();
 }
-
+// Change view2 background color
+view2.style.backgroundColor = "#333";
 
 // Function for creating an element
-const createDivs = (parent, iter) => {
+function createDivs(parent, iter) {
     const newDiv = document.createElement("div");
     newDiv.textContent = iter;
     newDiv.style.backgroundColor = "#000";
